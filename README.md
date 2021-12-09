@@ -1,16 +1,17 @@
 # Driver-Drowsiness-Detection
 This is a project implementing Computer Vision and Deep Learning concepts to detect drowsiness of a driver.
-Description
+
+#Description
 In this deep learning model which first detect the face and eyes and based on the status of the eyes if the eyes are closed more than usual time then it can generate an alarm. This can be used by riders who tend to drive for a longer period of time that may lead to accidents.
 
-Technologies used
+#Technologies used
 Python, OpenCV, Tensorflow, Keras
 
-Code Requirements
+#Code Requirements
 Python 3
 Open cv
 
-Model
+#Model
 Reading all the images from the dataset and converting them into an array for Data & Labels.
 Random shuffle is used to minimize overfitting
 Using TensorFlow, import a Keras image classification model, optionally loaded with weights pre-trained on ImageNet. model = tf.keras.applications.mobilenet.MobileNet()
